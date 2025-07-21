@@ -1,0 +1,9 @@
+a. 
+git config --global user.name"NAME"
+git config --global user.email"MAIL"
+
+b.
+git config --global user.name"Udemy - Huy Hoàng"
+
+c. 
+git commit -m"Project A"
