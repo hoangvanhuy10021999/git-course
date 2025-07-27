@@ -1,0 +1,13 @@
+câu 1. 
+git init: khởi tạo thư mục .git
+git add <file_name>: thêm file cụ thể vào vùng Staging
+git add .: thêm tất cả các file vào vùng Staging
+git commit -m"message": tạo commit từ vùng Staging vào vùng Repository có ghi chú là "message"
+
+Câu 2.
+a. file1, file2, file3 không ở vùng nào cả
+b. Git init -> 3 file ở vùng Working Directory
+c. chạy lệnh git commit khi chưa có thư mục nào ở vùng Staging chắc là lỗi. Cả 3 file vẫn ở vùng Working Directory
+d. file1 ở vùng Staging. file2, file3 ở vùng Working Directory
+e. file1 ở vùng Repository. file2, file3 ở vùng Working Directory
+f. "file" không có trong vùng Working Directory nên lỗi. file1 ở vùng Repository. file2, file3 ở vùng Working Directory
