@@ -1,0 +1,23 @@
+1.
+git commit --amend: thay đổi commit message
+git commit --amend -m”<message>”: thay đổi commit message và thêm message mới
+git restore --staged <file>: chuyển file từ vùng Stagging về vùng Working Directory
+git reset HEAD~1: chuyển 1 file đã commit gần nhất từ vùng Repository về vùng Working Directory
+
+2.
+a. file1, file2, file3 không ở vùng nào cả
+b. Git init -> 3 file ở vùng Working Directory
+c. chạy lệnh git commit khi chưa có thư mục nào ở vùng Staging -> Lỗi. Cả 3 file vẫn ở vùng Working Directory
+d. file1 ở vùng Staging. file2, file3 ở vùng Working Directory
+e. file1 ở vùng Repository. file2, file3 ở vùng Working Directory
+f. file1 ở vùng Repository. file2, file3 ở vùng Staging
+g. file1 ở vùng Repository. file2 ở vùng Working Directory, file3 ở vùng Staging
+h. file1, file3 ở vùng Repository. file2 ở vùng Working Directory
+i. file1 ở vùng Repository. file2, file3 ở vùng Working Directory
+
+3.
+a. khỏi tạo chưa có file nào cả
+b. file1.txt, file2.txt, oops/file3.txt thuộc vùng Working Directory
+c. file1.txt, file2.txt, oops/file3.txt thuộc vùng Working Directory có thêm file .gitignore ở vùng Working Directory
+d. file1.txt, oops/file3.txt vẫn ở vùng Working Directory, file2.txt, .gitignore qua vùng Staging
+e. file1.txt, oops/file3.txt vẫn ở vùng Working Directory, file2.txt, .gitignore qua vùng Repository
