@@ -1,0 +1,10 @@
+1. 
+Thẻ mở, thẻ đóng, thẻ thuộc tính, giá trị thuộc tính và text.
+
+2.
+thẻ table: hiển thị bảng 
+    thẻ thead : table heading
+        thẻ tr: số dòng trong bảng
+            thẻ th: text in đậm
+thẻ tbody
+    thẻ tr -> td: data của table
