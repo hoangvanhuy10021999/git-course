@@ -1,0 +1,4 @@
+a. lấy dự án có sẵn trên github về máy local.
+b. tạo 1 nhánh branch mới.
+c. chuyển sang nhánh branch có tên <branch_name>.
+d. tạo và chuyển sang nhánh <branch_name> cùng 1 lúc.
